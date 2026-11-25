@@ -12,7 +12,8 @@
 > — archived at [DOI 10.5281/zenodo.24540968](https://doi.org/10.5281/zenodo.24540968).
 >
 > Entry (三):
-> [Langton's ant on n×n boards — an explicit escape-time bound](https://github.com/yutitan/langton-ant-square-bound).
+> [Langton's ant on n×n boards — an explicit escape-time bound](https://github.com/yutitan/langton-ant-square-bound)
+> — archived at [DOI 10.5281/zenodo.24541703](https://doi.org/10.5281/zenodo.24541703).
 
 [*Written on the Wall II*](https://www.uhd.edu/academics/sciences/mathematics-statistics/wowii/)
 is the catalogue of conjectures produced by the program **Graffiti.pc**
