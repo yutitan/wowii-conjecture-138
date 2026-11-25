@@ -8,7 +8,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24540807.svg)](https://doi.org/10.5281/zenodo.24540807) · **Archived release:** v1.2.0 (2026-11-26)
 
 > **Series note.** 大模型的小练习（一）· LLM Exercises I. Entry (二):
-> [Exact escape time of Langton's ant on three-row boards](https://github.com/yutitan/langton-ant-three-rows).
+> [Exact escape time of Langton's ant on three-row boards](https://github.com/yutitan/langton-ant-three-rows)
+> — archived at [DOI 10.5281/zenodo.24540968](https://doi.org/10.5281/zenodo.24540968).
 
 [*Written on the Wall II*](https://www.uhd.edu/academics/sciences/mathematics-statistics/wowii/)
 is the catalogue of conjectures produced by the program **Graffiti.pc**
