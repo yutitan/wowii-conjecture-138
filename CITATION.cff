@@ -3,6 +3,7 @@ message: "If you use this material, please cite it as below."
 type: software
 title: "Counterexamples to Written on the Wall II conjecture #138"
 version: "1.1.0"
+doi: "10.5281/zenodo.24538089"
 date-released: "2026-11-25"
 authors:
   - name: "yutitan"
@@ -30,3 +31,4 @@ notes: >-
   published on 2026-11-25. This is a public record of a personal AI-assisted
   exploration and makes no priority claim. See PROVENANCE.md for the timeline
   and the AI disclosure.
+  Archived at Zenodo under DOI 10.5281/zenodo.24538089 (concept DOI 10.5281/zenodo.24538088).

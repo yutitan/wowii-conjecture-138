@@ -2,6 +2,7 @@
 
 **Author:** [@yutitan](https://github.com/yutitan) · **Date:** 2026-11-25  
 **Derived with:** GPT 6.2 Astra (OpenAI Codex, model `gpt-6.2-astra`) — see [Provenance](#provenance)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24538089.svg)](https://doi.org/10.5281/zenodo.24538089) · **Archived release:** v1.1.0 (2026-11-25)
 
 [*Written on the Wall II*](https://www.uhd.edu/academics/sciences/mathematics-statistics/wowii/)
 is the catalogue of conjectures produced by the program **Graffiti.pc**
@@ -194,12 +195,16 @@ python3 search/search_trees.py --max-n 18  # about a minute
 
 If you use this material, please cite it (see [`CITATION.cff`](CITATION.cff)):
 
+Archived releases are on Zenodo: **v1.1.0** has DOI [10.5281/zenodo.24538089](https://doi.org/10.5281/zenodo.24538089) (concept DOI [10.5281/zenodo.24538088](https://doi.org/10.5281/zenodo.24538088)). The DOI always refers to the archived snapshot; later commits are not part of it.
+
 ```bibtex
 @misc{yutitan2026wowii138,
   author       = {yutitan},
   title        = {Counterexamples to {Written on the Wall II} conjecture \#138},
   year         = {2026},
   howpublished = {\url{https://github.com/yutitan/wowii-conjecture-138}},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.24538089},
   note         = {Graffiti.pc conjecture 138, announced 2005-07-12}
 }
 ```
