@@ -2,7 +2,7 @@
 
 **yutitan** · 2026-11-25
 
-> **Provenance.** The first counterexample (`T21`, §2.3) was derived at
+> **Provenance.** The 21-vertex witness (`T21`, §2.3) was derived at
 > 2026-11-25 13:12:32 UTC by **GPT 6.2 Astra** (OpenAI Codex, model
 > `gpt-6.2-astra`) in a session directed by the author; the three 18-vertex
 > minimal counterexamples were found by exhaustive search under the same
