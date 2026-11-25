@@ -2,6 +2,7 @@
 
 **Author:** [@yutitan](https://github.com/yutitan) · **Date:** 2026-11-25  
 **Derived with:** GPT 6.2 Astra (OpenAI Codex, model `gpt-6.2-astra`) — see [Provenance](#provenance)
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24538089.svg)](https://doi.org/10.5281/zenodo.24538089) · **Archived release:** v1.1.0 (2026-11-25)
 
 [*Written on the Wall II*](https://www.uhd.edu/academics/sciences/mathematics-statistics/wowii/)
