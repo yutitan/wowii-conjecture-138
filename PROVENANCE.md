@@ -53,6 +53,20 @@ curl -s https://api.github.com/repos/yutitan/wowii-conjecture-138/releases | gre
   directed both sessions, reviewed the output, published the repository, and
   takes responsibility for its content. AI systems are not legal authors.
 
+## Lean 4 formalization (2026-11-26)
+
+The 18-vertex witness `T18`
+([`data/tree-18-original-labels.edges`](data/tree-18-original-labels.edges),
+isomorphic to `A18`) was formalized in Lean 4 on 2026-11-26 with an AI coding
+agent (WorkBuddy session) under the same human direction. The file
+[`lean/Wowii138.lean`](lean/Wowii138.lean) was then independently compiled and
+axiom-audited: Lean 4.37.0-rc1 with Mathlib
+`c44d09c9afd6296ba2d4c0c3712b3592ac899078`, exit status 0, no `sorry`, no
+`native_decide`, and `#print axioms` reports only `propext`,
+`Classical.choice`, `Quot.sound`. Only one witness is formalized; the
+three-witness count and the exhaustive minimality search remain Python-only.
+See [`lean/README.md`](lean/README.md).
+
 ## A note on the statement
 
 Two defects of the published statement are discussed in the README: definition

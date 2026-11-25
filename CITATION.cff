@@ -13,8 +13,10 @@ abstract: >-
   Explicit trees that violate conjecture #138 of Written on the Wall II
   (Graffiti.pc): path(G) >= (2+u(G))*dist_min(M(G^2)).  The smallest
   counterexamples are three trees on 18 vertices; none exists with fewer
-  vertices.  Includes a standard-library verification script and an exhaustive
-  search over unlabeled trees.
+  vertices.  Includes a standard-library verification script, an exhaustive
+  search over unlabeled trees, and a Lean 4 formalization of one of the
+  18-vertex witnesses (one witness only; the three-witness count and the
+  exhaustive minimality search are not formalized).
 keywords:
   - graph theory
   - path number
@@ -32,3 +34,6 @@ notes: >-
   exploration and makes no priority claim. See PROVENANCE.md for the timeline
   and the AI disclosure.
   Archived at Zenodo under DOI 10.5281/zenodo.24538089 (concept DOI 10.5281/zenodo.24538088).
+  A Lean 4 formalization of one 18-vertex witness was added on 2026-11-26 (see
+  lean/README.md); it does not cover the three-witness count or the exhaustive
+  minimality search.

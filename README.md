@@ -15,8 +15,9 @@ as **open**:
 > `path(G) ≥ (2 + u(G)) · dist_min(M(G²))`.
 
 This repository shows that the conjecture is **false**. It contains explicit
-counterexamples, a self-contained verification script, and an exhaustive search
-showing that the smallest counterexamples among trees have 18 vertices.
+counterexamples, a self-contained verification script, an exhaustive search
+showing that the smallest counterexamples among trees have 18 vertices, and a
+Lean 4 formalization of one of the 18-vertex witnesses.
 
 As of 2026-11-25 the WOWII web page still lists #138 as open.
 
@@ -52,6 +53,9 @@ Every number quoted in this repository is recomputed from the edge lists by
   `dist_min(M(G²))`: it holds whether distances are measured in `G²` or in `G`.
 * All computations are checked by [`verify.py`](verify.py), which uses only the
   Python standard library.
+* One witness (`T18`, isomorphic to `A18`) is formalized in Lean 4
+  ([`lean/`](lean/)); the other witnesses and the minimality claim are checked
+  by Python only.
 
 ## The counterexamples
 
@@ -112,6 +116,27 @@ status 0 only if all checks pass. Python 3.10 or newer is sufficient; there are
 no third-party dependencies.
 
 The recorded output is in [`verify.out`](verify.out).
+
+### Lean 4 formal verification (one witness only)
+
+[`lean/Wowii138.lean`](lean/Wowii138.lean) formalizes the 18-vertex witness
+`T18` (the tree of
+[`data/tree-18-original-labels.edges`](data/tree-18-original-labels.edges),
+isomorphic to `A18`) and proves
+`connected_counterexample : T18.Connected ∧ ¬ Conjecture138 T18`: it shows
+that `T18` is a tree, that `u(T18) = 1` with a unique maximum independent set
+of size 11, that `M(T18²) = {1, 13}` and `dist_min(M(T18²)) = 5`, and that
+every induced path of `T18` has at most 14 vertices (a 14-vertex induced path
+exists). The file contains no `sorry` and no `native_decide`; its
+`#print axioms` report only `propext`, `Classical.choice` and
+`Quot.sound`. It was checked with Lean 4.37.0-rc1 and Mathlib
+`c44d09c9afd6296ba2d4c0c3712b3592ac899078`.
+
+**Scope.** The Lean development covers **one** witness. The claims that there
+are exactly three 18-vertex counterexamples and that no smaller tree is a
+counterexample are *not* formalized; they rest on the Python exhaustive search
+below. See [`lean/README.md`](lean/README.md) for the toolchain, the
+reproduction command and the full list of what is and is not formalized.
 
 ## Exhaustive search among trees
 
@@ -176,6 +201,7 @@ Definition 19 defines `dist_min(M)` using distances in "the graph". For
 | path | contents |
 | --- | --- |
 | [`verify.py`](verify.py) | self-contained verification of the four witnesses (standard library only) |
+| [`lean/Wowii138.lean`](lean/Wowii138.lean) | Lean 4 formalization of the `T18` witness (one witness only; no exhaustive minimality) |
 | [`search/search_trees.py`](search/search_trees.py) | exhaustive search among trees (requires nauty) |
 | [`data/`](data/) | edge lists and graph6 strings of the witnesses |
 | [`figures/`](figures/) | drawings of the witnesses (SVG and PNG), with `.dot` sources |
@@ -190,6 +216,7 @@ cd wowii-conjecture-138
 python3 verify.py                          # seconds, no dependencies
 sudo apt install nauty                     # for the exhaustive search
 python3 search/search_trees.py --max-n 18  # about a minute
+# optional: Lean 4 check of one witness — see lean/README.md (needs Mathlib)
 ```
 
 ## Citation
