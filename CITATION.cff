@@ -3,7 +3,7 @@ message: "If you use this material, please cite it as below."
 type: software
 title: "大模型的小练习（一）：Written on the Wall II 猜想 #138 的反例"
 version: "1.2.0"
-doi: "10.5281/zenodo.24538089"
+doi: "10.5281/zenodo.24540807"
 date-released: "2026-11-26"
 authors:
   - name: "yutitan"
@@ -37,7 +37,7 @@ notes: >-
   published on 2026-11-25. This is a public record of a personal AI-assisted
   exploration and makes no priority claim. See PROVENANCE.md for the timeline
   and the AI disclosure.
-  Archived at Zenodo under DOI 10.5281/zenodo.24538089 (concept DOI 10.5281/zenodo.24538088).
+  Archived at Zenodo under DOI 10.5281/zenodo.24540807 (concept DOI 10.5281/zenodo.24538088; v1.1.0: 10.5281/zenodo.24538089).
   A Lean 4 formalization of one 18-vertex witness was added on 2026-11-26 (see
   lean/README.md); it does not cover the three-witness count or the exhaustive
   minimality search.
