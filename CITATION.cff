@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+type: software
+title: "Counterexamples to Written on the Wall II conjecture #138"
+version: "1.0.0"
+date-released: "2026-11-25"
+authors:
+  - name: "yutitan"
+repository-code: "https://github.com/yutitan/wowii-conjecture-138"
+url: "https://github.com/yutitan/wowii-conjecture-138"
+abstract: >-
+  Explicit trees that violate conjecture #138 of Written on the Wall II
+  (Graffiti.pc): path(G) >= (2+u(G))*dist_min(M(G^2)).  The smallest
+  counterexamples are three trees on 18 vertices; none exists with fewer
+  vertices.  Includes a standard-library verification script and an exhaustive
+  search over unlabeled trees.
+keywords:
+  - graph theory
+  - path number
+  - independent set
+  - Graffiti.pc
+  - Written on the Wall
+  - counterexample
+license: MIT

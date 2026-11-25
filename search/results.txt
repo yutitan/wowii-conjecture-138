@@ -1,0 +1,23 @@
+n =  3:      1 trees, 0 counterexample(s)
+n =  4:      2 trees, 0 counterexample(s)
+n =  5:      3 trees, 0 counterexample(s)
+n =  6:      6 trees, 0 counterexample(s)
+n =  7:     11 trees, 0 counterexample(s)
+n =  8:     23 trees, 0 counterexample(s)
+n =  9:     47 trees, 0 counterexample(s)
+n = 10:    106 trees, 0 counterexample(s)
+n = 11:    235 trees, 0 counterexample(s)
+n = 12:    551 trees, 0 counterexample(s)
+n = 13:   1301 trees, 0 counterexample(s)
+n = 14:   3159 trees, 0 counterexample(s)
+n = 15:   7741 trees, 0 counterexample(s)
+n = 16:  19320 trees, 0 counterexample(s)
+n = 17:  48629 trees, 0 counterexample(s)
+n = 18: 123867 trees, 3 counterexample(s)
+        Q?????????W?g?S?D??K?COCGw?  path=14 u=1 M=[4, 16] dist_min=5 RHS=15
+        Q?????????W?g?S?@_?F?Gc?OG_  path=14 u=1 M=[6, 17] dist_min=5 RHS=15
+        Q??????_A?C?c?E?@_?E?X???oO  path=14 u=1 M=[16, 17] dist_min=5 RHS=15
+
+total trees checked: 205002
+total counterexamples: 3
+tree counts agree with OEIS A000055

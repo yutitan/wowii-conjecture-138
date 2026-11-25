@@ -1,0 +1,32 @@
+Verifying counterexamples to Written on the Wall II conjecture #138
+  path(G) >= (2 + u(G)) * dist_min(M(G^2))
+
+tree    n edges   path  u    M(G^2)   dist_G2    dist_G    RHS_G2 fails?
+------------------------------------------------------------------------
+A18    18    17     14  1   (4, 16)         5         9        15    yes
+      path: 5 15 16 3 13 1 11 0 12 2 14 4 17 8
+      alpha = 11 | maximum independent set: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | unique: True
+      G^2 degrees: [4, 4, 4, 5, 6, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 6, 5]
+
+B18    18    17     14  1   (6, 17)         5         9        15    yes
+      path: 4 14 17 3 13 1 11 0 12 2 16 6 15 8
+      alpha = 11 | maximum independent set: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | unique: True
+      G^2 degrees: [4, 4, 5, 5, 3, 3, 6, 3, 3, 3, 3, 4, 4, 4, 5, 4, 5, 6]
+
+C18    18    17     14  1  (16, 17)         5         9        15    yes
+      path: 6 15 17 9 0 12 3 13 4 14 5 16 1 10
+      alpha = 10 | maximum independent set: [6, 7, 8, 9, 10, 11, 12, 13, 14, 16] | unique: True
+      G^2 degrees: [4, 4, 4, 4, 4, 5, 3, 3, 3, 5, 2, 2, 4, 4, 4, 5, 6, 6]
+
+T21    21    20     17  1   (0, 12)         6        12        18    yes
+      path: 14 13 0 1 2 3 4 5 6 7 8 9 10 11 12 19 20
+      alpha = 11 | maximum independent set: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20] | unique: True
+      G^2 degrees: [6, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 6, 4, 2, 4, 2, 4, 2, 4, 2]
+
+All 4 counterexamples verified: in every case
+    path(G) < (2 + u(G)) * dist_min(M(G^2)).
+
+Note: the inequality is violated under BOTH natural readings of
+dist_min(M(G^2)) -- distances measured in G^2 (columns RHS_G2) or
+in G (columns RHS_G).  See README.md for the discussion of WOWII
+definition 74 (u(G)) and of the distance ambiguity.
