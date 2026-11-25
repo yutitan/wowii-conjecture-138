@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this material, please cite it as below."
 type: software
-title: "Counterexamples to Written on the Wall II conjecture #138"
-version: "1.1.0"
+title: "大模型的小练习（一）：Written on the Wall II 猜想 #138 的反例"
+version: "1.2.0"
 doi: "10.5281/zenodo.24538089"
-date-released: "2026-11-25"
+date-released: "2026-11-26"
 authors:
   - name: "yutitan"
 repository-code: "https://github.com/yutitan/wowii-conjecture-138"
@@ -26,6 +26,10 @@ keywords:
   - counterexample
 license: MIT
 notes: >-
+  Series: 大模型的小练习（一） (LLM Exercises I); entry (二) is
+  https://github.com/yutitan/langton-ant-three-rows. The title was changed
+  from the earlier English title for series numbering; the mathematical
+  content is unchanged since v1.1.0.
   Derived with GPT 6.2 Astra (OpenAI Codex, model gpt-6.2-astra): the 21-vertex
   witness T21 was derived at 2026-11-25 13:12:32 UTC in a session directed by
   the author. The three minimal 18-vertex trees were found by exhaustive search

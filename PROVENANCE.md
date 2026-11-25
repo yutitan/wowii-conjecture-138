@@ -8,6 +8,12 @@ that similar counterexamples may well have been found independently, and no
 systematic literature search was attempted. The only check made was that
 *Written on the Wall II* still listed conjecture #138 as open on 2026-11-25.
 
+## Series
+
+This repository is entry （一） of the *大模型的小练习* (LLM Exercises)
+series. Entry （二） is
+[Exact escape time of Langton's ant on three-row boards](https://github.com/yutitan/langton-ant-three-rows).
+
 ## How the witnesses were produced (UTC, 2026-11-25)
 
 | time | event | evidence |

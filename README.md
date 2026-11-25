@@ -1,9 +1,14 @@
-# Counterexamples to *Written on the Wall II* conjecture #138
+# 大模型的小练习（一）：Written on the Wall II 猜想 #138 的反例
+
+**LLM Exercises I — counterexamples to *Written on the Wall II* conjecture #138**
 
 **Author:** [@yutitan](https://github.com/yutitan) · **Date:** 2026-11-25  
 **Derived with:** GPT 6.2 Astra (OpenAI Codex, model `gpt-6.2-astra`) — see [Provenance](#provenance)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24538089.svg)](https://doi.org/10.5281/zenodo.24538089) · **Archived release:** v1.1.0 (2026-11-25)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24538089.svg)](https://doi.org/10.5281/zenodo.24538089) · **Archived release:** v1.2.0 (2026-11-26)
+
+> **Series note.** 大模型的小练习（一）· LLM Exercises I. Entry (二):
+> [Exact escape time of Langton's ant on three-row boards](https://github.com/yutitan/langton-ant-three-rows).
 
 [*Written on the Wall II*](https://www.uhd.edu/academics/sciences/mathematics-statistics/wowii/)
 is the catalogue of conjectures produced by the program **Graffiti.pc**
@@ -228,7 +233,7 @@ Archived releases are on Zenodo: **v1.1.0** has DOI [10.5281/zenodo.24538089](ht
 ```bibtex
 @misc{yutitan2026wowii138,
   author       = {yutitan},
-  title        = {Counterexamples to {Written on the Wall II} conjecture \#138},
+  title        = {大模型的小练习（一）：Counterexamples to {Written on the Wall II} conjecture \#138},
   year         = {2026},
   howpublished = {\url{https://github.com/yutitan/wowii-conjecture-138}},
   publisher    = {Zenodo},
