@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this material, please cite it as below."
 type: software
 title: "Counterexamples to Written on the Wall II conjecture #138"
-version: "1.0.0"
+version: "1.1.0"
 date-released: "2026-11-25"
 authors:
   - name: "yutitan"
@@ -23,10 +23,10 @@ keywords:
   - counterexample
 license: MIT
 notes: >-
-  Derived with GPT 6.2 Astra (OpenAI Codex, model gpt-6.2-astra): the first
-  counterexample, the 21-vertex tree T21, was derived at 2026-11-25 13:12:32
-  UTC in a session directed by the author. The three minimal 18-vertex trees
-  were found by exhaustive search over all unlabeled trees with 3-18 vertices.
-  The repository was made public at 2026-11-25 14:40:43 UTC and release v1.0.0
-  was published at 14:48:27 UTC. See PROVENANCE.md for the timeline and the AI
-  disclosure.
+  Derived with GPT 6.2 Astra (OpenAI Codex, model gpt-6.2-astra): the 21-vertex
+  witness T21 was derived at 2026-11-25 13:12:32 UTC in a session directed by
+  the author. The three minimal 18-vertex trees were found by exhaustive search
+  over all unlabeled trees with 3-18 vertices. The repository was first
+  published on 2026-11-25. This is a public record of a personal AI-assisted
+  exploration and makes no priority claim. See PROVENANCE.md for the timeline
+  and the AI disclosure.

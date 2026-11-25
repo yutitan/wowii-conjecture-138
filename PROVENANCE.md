@@ -1,18 +1,14 @@
-# Provenance, priority and AI disclosure
+# Provenance and AI disclosure
 
 [Back to the README](README.md)
 
-## Claim
+This repository is published as a **public record of a personal AI-assisted
+exploration**. It makes **no priority claim**: current models are strong enough
+that similar counterexamples may well have been found independently, and no
+systematic literature search was attempted. The only check made was that
+*Written on the Wall II* still listed conjecture #138 as open on 2026-11-25.
 
-To the best of our knowledge this repository contains the **first public
-counterexamples** to conjecture #138 of *Written on the Wall II*. The first
-counterexample, the 21-vertex tree `T21` ([`data/tree-21.edges`](data/tree-21.edges)),
-was derived on **2026-11-25 at 13:12:32 UTC** by **GPT 6.2 Astra**, an OpenAI
-Codex model (model id `gpt-6.2-astra`), in a session directed by the human
-author [@yutitan](https://github.com/yutitan). The repository was made public
-the same day (timeline below).
-
-## Timeline (UTC, 2026-11-25)
+## How the witnesses were produced (UTC, 2026-11-25)
 
 | time | event | evidence |
 | --- | --- | --- |
@@ -24,7 +20,7 @@ the same day (timeline below).
 | 14:48:00 | first commit `d7f849e` pushed to `main` | GitHub API `commits/main` |
 | 14:48:27 | release `v1.0.0` published | GitHub API `releases` |
 
-The three GitHub timestamps are server-side and can be checked directly:
+The GitHub timestamps are server-side and can be checked directly:
 
 ```bash
 curl -s https://api.github.com/repos/yutitan/wowii-conjecture-138 | grep created_at
@@ -36,8 +32,8 @@ curl -s https://api.github.com/repos/yutitan/wowii-conjecture-138/releases | gre
 
 * The 20 edges of [`data/tree-21.edges`](data/tree-21.edges) are exactly the
   edge list hard-coded in the verifier written at 13:13 UTC (sha256 of
-  `data/tree-21.edges`: `8ff0be6d…f0835e`). The published `T21` is therefore
-  the same tree that was derived in that session, not a later reconstruction.
+  `data/tree-21.edges`: `8ff0be6d…f0835e`), so the published `T21` is the same
+  tree that was derived in that session, not a later reconstruction.
 * The tree of the first public commit has hash
   `43e936ff71f23393cbdae2d9d2e20cca3dfeb493` (the local initial commit
   `a3c51d4`, created before the upload, has the same tree).
@@ -47,9 +43,8 @@ curl -s https://api.github.com/repos/yutitan/wowii-conjecture-138/releases | gre
 
 ## What the AI systems did
 
-* **GPT 6.2 Astra** (OpenAI Codex, model `gpt-6.2-astra`) derived the first
-  counterexample `T21` and wrote its first exact verifier. This is the
-  discovery that the priority claim above refers to.
+* **GPT 6.2 Astra** (OpenAI Codex, model `gpt-6.2-astra`) derived the 21-vertex
+  witness `T21` and wrote its first exact verifier.
 * **DeepSeek Harness** (an AI coding agent) carried out, under the same human
   direction, the exhaustive search over all trees with 3–18 vertices that
   produced the three 18-vertex counterexamples and the minimality result, and
@@ -63,4 +58,4 @@ curl -s https://api.github.com/repos/yutitan/wowii-conjecture-138/releases | gre
 Two defects of the published statement are discussed in the README: definition
 74 omits the word "maximum", and `dist_min(M(G²))` can be measured in `G²` or
 in `G`. The counterexamples violate the inequality in both readings, so the
-priority claim does not depend on either interpretation.
+claims do not depend on either interpretation.
