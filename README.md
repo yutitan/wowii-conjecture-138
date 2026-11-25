@@ -10,6 +10,9 @@
 > **Series note.** 大模型的小练习（一）· LLM Exercises I. Entry (二):
 > [Exact escape time of Langton's ant on three-row boards](https://github.com/yutitan/langton-ant-three-rows)
 > — archived at [DOI 10.5281/zenodo.24540968](https://doi.org/10.5281/zenodo.24540968).
+>
+> Entry (三):
+> [Langton's ant on n×n boards — an explicit escape-time bound](https://github.com/yutitan/langton-ant-square-bound).
 
 [*Written on the Wall II*](https://www.uhd.edu/academics/sciences/mathematics-statistics/wowii/)
 is the catalogue of conjectures produced by the program **Graffiti.pc**
