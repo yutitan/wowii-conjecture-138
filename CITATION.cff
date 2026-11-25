@@ -22,3 +22,11 @@ keywords:
   - Written on the Wall
   - counterexample
 license: MIT
+notes: >-
+  Derived with GPT 6.2 Astra (OpenAI Codex, model gpt-6.2-astra): the first
+  counterexample, the 21-vertex tree T21, was derived at 2026-11-25 13:12:32
+  UTC in a session directed by the author. The three minimal 18-vertex trees
+  were found by exhaustive search over all unlabeled trees with 3-18 vertices.
+  The repository was made public at 2026-11-25 14:40:43 UTC and release v1.0.0
+  was published at 14:48:27 UTC. See PROVENANCE.md for the timeline and the AI
+  disclosure.

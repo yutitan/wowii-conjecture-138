@@ -1,6 +1,7 @@
 # Counterexamples to *Written on the Wall II* conjecture #138
 
-**Author:** [@yutitan](https://github.com/yutitan) · **Date:** 2026-11-25
+**Author:** [@yutitan](https://github.com/yutitan) · **Date:** 2026-11-25  
+**Derived with:** GPT 6.2 Astra (OpenAI Codex, model `gpt-6.2-astra`) — see [Provenance](#provenance-and-priority)
 
 [*Written on the Wall II*](https://www.uhd.edu/academics/sciences/mathematics-statistics/wowii/)
 is the catalogue of conjectures produced by the program **Graffiti.pc**
@@ -16,6 +17,25 @@ counterexamples, a self-contained verification script, and an exhaustive search
 showing that the smallest counterexamples among trees have 18 vertices.
 
 As of 2026-11-25 the WOWII web page still lists #138 as open.
+
+## Provenance and priority
+
+**Priority.** To the best of our knowledge these are the first public
+counterexamples to conjecture #138. The first one, the 21-vertex tree `T21`,
+was derived at **2026-11-25 13:12:32 UTC** by **GPT 6.2 Astra**, an OpenAI Codex
+model with model id `gpt-6.2-astra`, in a session directed by the repository
+author [@yutitan](https://github.com/yutitan). The repository was made public the
+same day at **14:40:43 UTC**, and release `v1.0.0` was published at
+**14:48:27 UTC**. [`PROVENANCE.md`](PROVENANCE.md) records the timeline together
+with the Codex session id, the verifier that was written at the time, and the
+relevant hashes.
+
+The three 18-vertex counterexamples and the minimality claim were produced by an
+exhaustive search over all unlabeled trees with 3–18 vertices, carried out under
+the same direction with a second AI coding agent (DeepSeek Harness); those three
+trees, not `T21`, are the minimum. Every number quoted in this repository is
+recomputed from the edge lists by [`verify.py`](verify.py), so none of the claims
+requires trusting a language model.
 
 ## Highlights
 
@@ -67,8 +87,10 @@ All witnesses in this repository:
 | [`C18`](data/tree-C18.edges) | 18 | 14 | 1 | {16,17} | 5 | 9 | 15 | 27 | **yes** |
 | [`T21`](data/tree-21.edges) | 21 | 17 | 1 | {0,12} | 6 | 12 | 18 | 36 | **yes** |
 
-`T21` is the 21-vertex tree that was found first; the three 18-vertex trees were
-found by the exhaustive search described below. `A18` is isomorphic to the
+`T21` is the 21-vertex tree that was found first and it is the first
+counterexample derived in this investigation (see
+[Provenance](#provenance-and-priority)); the three 18-vertex trees were found by
+the exhaustive search described below. `A18` is isomorphic to the
 18-vertex tree given in
 [`data/tree-18-original-labels.edges`](data/tree-18-original-labels.edges).
 

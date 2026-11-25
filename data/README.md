@@ -12,7 +12,7 @@ Every tree is stored twice:
 | `tree-A18` | 18 | smallest counterexample, nauty canonical labelling |
 | `tree-B18` | 18 | smallest counterexample, nauty canonical labelling |
 | `tree-C18` | 18 | smallest counterexample, nauty canonical labelling |
-| `tree-21` | 21 | the 21-vertex witness, in its original labelling |
+| `tree-21` | 21 | the 21-vertex witness, in its original labelling: the exact edge list of the verifier written by GPT 6.2 Astra when the witness was derived (see [`../PROVENANCE.md`](../PROVENANCE.md)) |
 | `tree-18-original-labels` | 18 | an 18-vertex witness isomorphic to `tree-A18`, in its original labelling (kept for provenance) |
 
 `A18`, `B18` and `C18` are, up to isomorphism, exactly the trees on 18
