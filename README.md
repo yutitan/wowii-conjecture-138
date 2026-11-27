@@ -17,7 +17,7 @@
 >
 > Entry (四):
 > [Reverse-play thresholds for Langton's ant](https://github.com/yutitan/langton-reverse-thresholds)
-> — release v1.0.0 (Zenodo DOI pending).
+> — archived at [DOI 10.5281/zenodo.24583889](https://doi.org/10.5281/zenodo.24583889).
 
 [*Written on the Wall II*](https://www.uhd.edu/academics/sciences/mathematics-statistics/wowii/)
 is the catalogue of conjectures produced by the program **Graffiti.pc**
